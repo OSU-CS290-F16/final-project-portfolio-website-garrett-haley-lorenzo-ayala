@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+
+	<link rel="stylesheet" href="final.css" media="screen">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen">
+	<link rel="stylesheet" href="https://postimg.org/image/oy5ihlzcp/" media="screen">
+	<script src="index.js"></script>
+	
+	
+  </head>
+ <body>
+ <h1>Portfolio Custom Design</h1>
+<div id = "nav"><br>
+	<div id = "nav_wrapper"><br>
+			<ul>
+			
+			<div id = "navbar1"><li><a href = "#">Home</a></li></div>
+			<div id = "navbar2"><li><a href = "#">About</a></li></div>
+			<div id = "create"><li><a href = "#">Create</a></li></div>
+			
+		    
+			</ul>
+	</div>
+</div>
+<div class="add-note-button-container">
+  <button id="add-note-button">+</button>
+</div>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="add-note-modal" class="hidden">
+  <div class="modal-dialog">
+
+    <div class="modal-header">
+      <h3>Add a ToDo</h3>
+      <button type="button" class="modal-close-button">&times;</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="todo-input-element required">
+        <label for="todo-input-what">What</label>
+        <input type="text" id="todo-input-what">
+      </div>
+      <div class="todo-input-element">
+        <label for="todo-input-where">Where</label>
+        <input type="text" id="todo-input-where">
+      </div>
+      <div class="todo-input-element">
+        <label for="todo-input-when">When</label>
+        <input type="text" id="todo-input-when">
+      </div>
+      <div class="todo-input-element">
+        <label for="todo-input-who">Who</label>
+        <input type="text" id="todo-input-who">
+      </div>
+      <div class="todo-input-element">
+        <label for="todo-input-details">Details</label>
+        <textarea id="todo-input-details"></textarea>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" class="modal-cancel-button">Cancel</button>
+      <button type="button" class="modal-accept-button">Add ToDo</button>
+    </div>
+
+  </div>
+  <footer>
+      <div class="copyright">
+        Copyright &copy; 2016
+      </div>
+    </footer>
+
+
+  </body>
+
+ 
+
+</html>
