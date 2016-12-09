@@ -3,6 +3,4 @@ This project will be a fully functioning webpage which dynamically creates new p
 The work for the project was split between Lorenzo Ayala and Garrett Haley.
 
 installs needed:
-npm mysql
-npm express
-npm express-handlebars
+run npm install, then npm start.
