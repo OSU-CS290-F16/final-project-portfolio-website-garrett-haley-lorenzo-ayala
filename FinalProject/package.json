@@ -1,0 +1,29 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "dynamic website with server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.6",
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"start\": \"node server.js\"",
+    "build": "handlebars views/partials/post.handlebars -f public/post-template.js",
+    "prestart": "npm run build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSU-CS290-F16/final-project-portfolio-website-garrett-haley-lorenzo-ayala.git"
+  },
+  "bugs":{
+    "url":"https://github.com/OSU-CS290-F16/final-project-portfolio-website-garrett-haley-lorenzo-ayala/issues"
+  },
+  "author": "Lorenzo Ayala and Garrette Haley",
+  "license": "ISC"
+}

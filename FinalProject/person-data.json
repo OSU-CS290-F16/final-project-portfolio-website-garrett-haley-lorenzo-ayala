@@ -1,0 +1,22 @@
+{
+  "Lorenzo": {
+    "name": "Lorenzo Ayala",
+    "post": [
+      {
+        "date": "today",
+        "details": "Still working on finishing the CS290 final"
+
+        }
+    ]
+  },
+
+  "Garrett": {
+    "name": "Garrett Haley",
+    "post": [
+      {
+        "date": "today",
+        "details" : "Lots of work left to do today!"
+     }
+    ]
+  }
+}
